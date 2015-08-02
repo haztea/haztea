@@ -47,7 +47,7 @@ class navigator:
         self.addDirectoryItem(30501, 'root_movies', 'root_movies.jpg', 'DefaultMovies.png')
         self.addDirectoryItem(30502, 'root_shows', 'root_shows.jpg', 'DefaultTVShows.png')
         self.addDirectoryItem(30503, 'channels_movies', 'channels_movies.jpg', 'DefaultMovies.png')
-        self.addDirectoryItem(30504, 'root_genesis', 'root_genesis.jpg', 'DefaultVideoPlaylists.png')
+        self.addDirectoryItem(30504, 'root_lemon', 'root_genesis.jpg', 'DefaultVideoPlaylists.png')
 
         root_movies = control.setting('root_movies')
         if root_movies == '1':
@@ -127,7 +127,7 @@ class navigator:
         self.endDirectory()
 
 
-    def genesis(self):
+    def lemon(self):
         if traktMode == True:
             self.addDirectoryItem(30581, 'movies_trakt_collection', 'movies_trakt_collection.jpg', 'DefaultMovies.png')
             self.addDirectoryItem(30582, 'shows_trakt_collection', 'shows_trakt_collection.jpg', 'DefaultTVShows.png')
